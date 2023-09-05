@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: 546921922638.dkr.ecr.ap-southeast-1.amazonaws.com/myjava-app:${dockerImageTag}
+        image: 546921922638.dkr.ecr.ap-southeast-1.amazonaws.com/myjava-app:2
         ports:
         - containerPort: 8000
